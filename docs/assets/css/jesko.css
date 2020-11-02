@@ -1,0 +1,90 @@
+#logo:hover {
+  background: lightgray;
+  background: -moz-radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.1292892156862745) 51%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.1292892156862745) 51%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.1292892156862745) 51%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+}
+
+nav {
+  height: 115px;
+}
+
+#navbar {
+  background: white;
+}
+
+#navbar a.buttons {
+  color: black;
+}
+
+#navbar a.buttons:hover {
+  background-color: lightgray;
+}
+
+.active {
+  color: black;
+  background-color: lightgray;
+}
+
+/* https://www.wsupercars.com/wallpapers/Koenigsegg/2021-Koenigsegg-Jesko-Absolut-004-1080.jpg */
+.absolut {
+  background-image: url("../images/jeskoabsolut.jpg");
+}
+
+/* https://www.koenigsegg.com/gallery-koenigsegg-jesko-in-lucerne/ */
+.jesko {
+  background-image: url("../images/jesko.jpg");
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  padding: 60px 150px 20px 150px;
+  font-family: "Alcubierre", sans-serif;
+  font-size: 200%;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+p {
+  padding: 0px 150px;
+  line-height: 30px;
+  display: block;
+  width: 40vw;
+}
+
+main img {
+  float: right;
+  height: 100%;
+  width: 650px;
+  margin-bottom: 50px;
+  aspect-ratio: initial;
+  background-size: contain;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.boldtxt {
+    font-weight: 600;
+}
