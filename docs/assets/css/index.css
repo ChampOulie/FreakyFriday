@@ -156,8 +156,8 @@ nav {
   position: absolute;
   top: 82%;
   bottom: 18%;
-  left: 14%;
-  right: 86%;
+  left: 15%;
+  right: 85%;
 }
 
 #Jeskobutton {
@@ -165,7 +165,6 @@ nav {
   top: 82%;
   left: 62.4%;
   right: 37.6%;
-  background-color: green;
 }
 /* end of buttons */
 
